@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 248, 248);
+}
+nav{
+    height: 1vh;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    height: 1vh;
+    color: white;
+
+}
+select,option{
+    border: none;
+    padding: 10px;
+    color: white;
+    
+}
+
