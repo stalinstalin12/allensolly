@@ -1,6 +1,6 @@
 *{padding: 0;
     margin: 0;
-    font: "cabin";
+    font-size:small;
 }
 .start{
     height: 25px;
@@ -15,11 +15,11 @@
 nav{
     height: 1vh;
     width: 100%;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(53, 52, 52);
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    background-color: black ;
+    background-color: rgb(53, 52, 52) ;
 }
 
 .section{
@@ -29,9 +29,10 @@ nav{
    color: white;
 
 }
-select{
-    background-color: rgb(0, 0, 0);
+.section select,option{
+    background-color:rgb(53, 52, 52);
     border: none;
+    outline: none;
     padding: 10px;
     color: rgb(255, 255, 255);
     
@@ -58,6 +59,8 @@ select{
     margin-right: 10px;
 }
 .section1{
+    align-items: center;
+    margin-top: 7px;
     display: flex;
     justify-content: flex-start;
     justify-content: space-between;
@@ -69,7 +72,7 @@ select{
     padding: 10px;
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 87)
 }
 #sale{
     color: red;
@@ -83,6 +86,25 @@ select{
 }
 .search input{
 border: none;
+border-bottom: 2px solid black;
 background: transparent;
 padding-bottom: 10px;
+}
+.delivery{
+    height: 40px;
+    width: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
+}
+.products ul,li{
+    font-size: medium;
+   list-style-type: none;
 }
