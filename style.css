@@ -17,7 +17,7 @@
 }
 nav{
     height: 2px;
-    width: 96%;
+    width: 100%;
     border: 2px solid rgb(53, 52, 52);
     display: flex;
     justify-content: space-between;
@@ -184,9 +184,9 @@ padding-bottom: 10px;
     align-items: center;
 }
 .qrandpic{
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 250px;
     display: flex;
 }
 .section5{
@@ -195,6 +195,7 @@ padding-bottom: 10px;
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
 }
 .section5 h1{
     color: rgb(1, 1, 80);
@@ -208,4 +209,28 @@ padding-bottom: 10px;
     color: rgb(6, 6, 124);
     text-decoration: none;
     font-weight: bold;
+}
+.section7{
+    overflow: scroll;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.section7img{
+    display: flex;
+    flex-direction: column;
+}
+.section7img span{
+    margin-top: -80px;
+}
+.section7img button{
+    border-radius: 10px;
+    width: 200px;
+    background-color: #fff;
+    border: none;
+    font-size: large;
+    margin-left: 100px;
+    height: 40px;
 }
