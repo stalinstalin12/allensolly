@@ -17,7 +17,7 @@
 }
 nav{
     height: 2px;
-    width: 100%;
+    /* width: 100%; */
     border: 2px solid rgb(53, 52, 52);
     display: flex;
     justify-content: space-between;
@@ -79,7 +79,7 @@ nav{
 }
 .sec1right a{
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 50px;
     text-decoration: none;
     color: rgb(0, 0, 87)
 }
@@ -88,7 +88,7 @@ nav{
 }
 .search{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px;
     padding-top: 7px;
 
@@ -102,13 +102,13 @@ padding-bottom: 10px;
 .delivery{
     font-size: smaller;
     height: 35px;
-    width: 15vw;
+    width: 13vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: yellow;
     border-radius: 20px;
     padding: 5px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     
 }
 .products{
@@ -130,7 +130,7 @@ padding-bottom: 10px;
 }
 .section2{
     
-    width: 100%;
+    /* width: 100%; */
     height: 90vh;
 }
 .section3{
@@ -156,7 +156,7 @@ padding-bottom: 10px;
     margin-top: 30px;
     background-color:rgb(249, 231, 159);
     height: 120px;
-    width: 100%;
+    /* width: 100%; */
     padding: 40px;
     padding-left: 100px;
 }
@@ -195,7 +195,7 @@ padding-bottom: 10px;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
+    /* width: 100%; */
 }
 .section5 h1{
     color: rgb(1, 1, 80);
@@ -211,12 +211,14 @@ padding-bottom: 10px;
     font-weight: bold;
 }
 .section7{
+    padding: 20px;
     overflow: scroll;
     margin-top: 20px;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 15px;
+    margin-left: 70px;
 }
 .section7img{
     display: flex;
@@ -233,4 +235,40 @@ padding-bottom: 10px;
     font-size: large;
     margin-left: 100px;
     height: 40px;
+}
+.modelandlogo{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.brandlogo{
+    padding: 20px;
+    margin-right: 100px;
+}
+.section8{
+    position: relative;
+}
+.middle{
+    margin-left: 500px;
+    position: absolute;
+    top: 0;
+    margin-top: 250px;
+    padding: 100px;
+    padding-left: 120px;
+    height: 50px;
+    width: 600px;
+    background-color: rgb(221, 158, 42);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    grid-template-rows: repeat(2,30px);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.buttons button{
+
+    border: 1px solid black;
+    background-color: white;
 }
