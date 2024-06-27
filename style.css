@@ -249,16 +249,24 @@ padding-bottom: 10px;
 .section8{
     position: relative;
 }
+.section8 h5{
+    position: absolute;
+    top: 10vh;
+    margin-left: 95vh;
+    opacity: 0.8;
+}
 .middle{
+
+    border-radius: 10px;
     margin-left: 500px;
     position: absolute;
     top: 0;
     margin-top: 250px;
     padding: 100px;
     padding-left: 120px;
-    height: 50px;
-    width: 600px;
-    background-color: rgb(221, 158, 42);
+    height:5vh;
+    width: 30vw;
+    background-color: rgb(221, 165, 60);
 }
 .buttons{
     display: grid;
@@ -266,9 +274,15 @@ padding-bottom: 10px;
     grid-template-rows: repeat(2,30px);
     row-gap: 20px;
     column-gap: 20px;
+    font-weight: bolder;
 }
 .buttons button{
 
     border: 1px solid black;
     background-color: white;
+}
+.middle h1{
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 20px;
 }
